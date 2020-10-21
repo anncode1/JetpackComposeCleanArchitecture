@@ -1,7 +1,7 @@
 package com.anncode.jetpackcomposecleanarchitecture.domain.catfacts.usecases
 
+import com.anncode.jetpackcomposecleanarchitecture.domain.catfacts.model.CatFactStates
 import com.anncode.jetpackcomposecleanarchitecture.domain.catfacts.repository.CatFactRepository
-import com.anncode.jetpackcomposecleanarchitecture.presentation.CatFactStates
 
 /**
  * Created by anahi.salgado on 28/07/2020

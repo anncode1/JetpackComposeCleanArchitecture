@@ -1,6 +1,4 @@
-package com.anncode.jetpackcomposecleanarchitecture.presentation
-
-import com.anncode.jetpackcomposecleanarchitecture.domain.catfacts.model.Fact
+package com.anncode.jetpackcomposecleanarchitecture.domain.catfacts.model
 
 /**
  * Created by anahi.salgado on 28/07/2020

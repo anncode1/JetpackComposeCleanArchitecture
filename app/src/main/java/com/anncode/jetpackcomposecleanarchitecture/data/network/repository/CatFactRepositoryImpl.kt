@@ -1,8 +1,8 @@
 package com.anncode.jetpackcomposecleanarchitecture.data.network.repository
 
 import com.anncode.jetpackcomposecleanarchitecture.data.network.CatFactsService
+import com.anncode.jetpackcomposecleanarchitecture.domain.catfacts.model.CatFactStates
 import com.anncode.jetpackcomposecleanarchitecture.domain.catfacts.repository.CatFactRepository
-import com.anncode.jetpackcomposecleanarchitecture.presentation.CatFactStates
 import java.io.IOException
 
 /**

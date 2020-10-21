@@ -1,8 +1,9 @@
-package com.anncode.jetpackcomposecleanarchitecture.presentation
+package com.anncode.jetpackcomposecleanarchitecture.presentation.main
 
 import androidx.hilt.lifecycle.ViewModelInject
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
+import com.anncode.jetpackcomposecleanarchitecture.domain.catfacts.model.CatFactStates
 import com.anncode.jetpackcomposecleanarchitecture.domain.catfacts.model.Fact
 import com.anncode.jetpackcomposecleanarchitecture.domain.catfacts.usecases.GetCatRandomFact
 import kotlinx.coroutines.CoroutineScope

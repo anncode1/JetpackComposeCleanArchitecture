@@ -1,7 +1,7 @@
-package com.anncode.jetpackcomposecleanarchitecture.presentation
+package com.anncode.jetpackcomposecleanarchitecture.presentation.main
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import androidx.compose.ui.platform.setContent
 import com.anncode.jetpackcomposecleanarchitecture.presentation.ui.screens.CatFactScreen
 import dagger.hilt.android.AndroidEntryPoint

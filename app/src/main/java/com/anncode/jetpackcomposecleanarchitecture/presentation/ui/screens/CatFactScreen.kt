@@ -4,7 +4,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.livedata.observeAsState
 import androidx.lifecycle.MutableLiveData
-import com.anncode.jetpackcomposecleanarchitecture.presentation.CatFactStates
+import com.anncode.jetpackcomposecleanarchitecture.domain.catfacts.model.CatFactStates
 import com.anncode.jetpackcomposecleanarchitecture.presentation.ui.composables.CatFactCard
 import com.anncode.jetpackcomposecleanarchitecture.presentation.ui.composables.CatFactText
 
