@@ -3,7 +3,7 @@ package com.anncode.jetpackcomposecleanarchitecture.presentation.ui.screens
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.livedata.observeAsState
-import androidx.lifecycle.MutableLiveData
+import androidx.lifecycle.LiveData
 import com.anncode.jetpackcomposecleanarchitecture.domain.catfacts.model.CatFactStates
 import com.anncode.jetpackcomposecleanarchitecture.presentation.ui.composables.CatFactCard
 import com.anncode.jetpackcomposecleanarchitecture.presentation.ui.composables.CatFactText
@@ -11,7 +11,7 @@ import com.anncode.jetpackcomposecleanarchitecture.presentation.ui.composables.C
 
 @Composable
 fun CatFactScreen(
-    catFact: MutableLiveData<CatFactStates>,
+    catFact: LiveData<CatFactStates>,
     onClick: () -> Unit
 ) {
     val catFact: CatFactStates by catFact.observeAsState(initial = CatFactStates.Loading)
